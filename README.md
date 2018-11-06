@@ -1,6 +1,6 @@
 # additional-8.2
 # write def drop_low_grade(grades): ... on line 3
-
+def drop_low(grades):
     low_grade = min(grades)
     grades.remove(low_grade)
     print("Your grades that count are:", grade[0], grade[1])
